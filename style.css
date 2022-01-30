@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 0;
   margin: 0;
   max-height: 70px;
+  
 }
 
 #main {
@@ -131,6 +132,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   transition: 0.5s;
   margin-top: 30px;
+  margin-bottom: 30px;
   color: #fff;
   background: #4447EA;
 }
@@ -157,15 +159,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 35px;
+    line-height: 30px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 80%;
   }
 }
 @media (max-width: 575px) {
